@@ -3,10 +3,10 @@
 **iOSAlertLibrary** — это библиотека для отображения уведомлений на базе SwiftUI, которая может работать на любом экране.
 
 <p float="left">
-  <img src="https://github.com/user-attachments/assets/474af28f-44b1-4f53-963e-ed0a79125e75" width="23%" />
-  <img src="https://github.com/user-attachments/assets/6d4f3156-bb20-437e-a773-f5389988174d" width="23%" />
-  <img src="https://github.com/user-attachments/assets/b7157753-d35d-4c20-a9e9-eb60476d50f2" width="23%" />
-  <img src="https://github.com/user-attachments/assets/646f0aa8-c414-402e-a5fc-b71edb712cee" width="23%" /> 
+  <img src="https://github.com/user-attachments/assets/eabd0544-6911-4187-b883-15d3f13ab7f0" width="23%" />
+  <img src="https://github.com/user-attachments/assets/d2253dae-29a8-4cb6-86aa-7f12265a1ce1" width="23%" />
+  <img src="https://github.com/user-attachments/assets/1f0ba5b3-eec2-48f9-93ac-bd68bb44582d" width="23%" />
+  <img src="https://github.com/user-attachments/assets/73bfc58c-44ee-4550-9e84-74440dbbb3b7" width="23%" /> 
 </p>
 
 ---

@@ -103,6 +103,12 @@ iosAlertlibrary.dismissAlert(id: id)
 
 ## Требования
 
-| Platform                                             | 
+| Платформы                                             | 
 | ---------------------------------------------------- | 
 | iOS 16.0+ | 
+
+## Авторы
+
+<a href="https://github.com/MickeyRU"><img src="https://github.com/MickeyRU.png" width="50" height="50" /></a>
+<a href="https://github.com/Archichil"><img src="https://github.com/Archichil.png" width="50" height="50" /></a>
+<a href="https://github.com/Uvexer"><img src="https://github.com/Uvexer.png" width="50" height="50" /></a>

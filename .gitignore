@@ -1,0 +1,8 @@
+## User settings
+xcuserdata/
+
+.DS_Store
+/iOS/AlertsLibrary/.build
+/iOS/AlertsLibrary/.swiftpm
+/iOS/AlertsLibrary/Packages
+/iOS/AlertsLibrary/Package.resolved

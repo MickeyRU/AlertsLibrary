@@ -114,9 +114,9 @@ iosAlertLibrary.dismissAlert(id: id)
 
 The library's architecture is modular, allowing you to use only the required functionality.
 
-- [Alerts UI presets](https://github.com/Yandex-360-Mobile-Bootcamp/AlertsLibrary/tree/spm/iOS/SPM/Sources/iOSAlertLibrary/NotificationsUI) - A collection of predefined notification templates.
-- [BasicContainerView](https://github.com/Yandex-360-Mobile-Bootcamp/AlertsLibrary/blob/spm/iOS/SPM/Sources/iOSAlertLibrary/Core/Containers/BasicContainerView.swift) - An intermediate wrapper for UI elements (View), enabling gesture and animation configuration, and implementing the **ContainerViewProtocol**.
-- [AlertPresentationManager](https://github.com/Yandex-360-Mobile-Bootcamp/AlertsLibrary/blob/spm/iOS/SPM/Sources/iOSAlertLibrary/Core/Managers/AlertPresentationManager.swift) - Manages the display of containers (Views implementing ContainerViewProtocol) and their lifecycle.
+- [Alerts UI presets](https://github.com/MickeyRU/AlertsLibrary/tree/main/SPM/Sources/iOSAlertLibrary/NotificationsUI) - A collection of predefined notification templates.
+- [BasicContainerView](https://github.com/MickeyRU/AlertsLibrary/blob/main/SPM/Sources/iOSAlertLibrary/Core/Containers/BasicContainerView.swift) - An intermediate wrapper for UI elements (View), enabling gesture and animation configuration, and implementing the **ContainerViewProtocol**.
+- [AlertPresentationManager](https://github.com/MickeyRU/AlertsLibrary/blob/main/SPM/Sources/iOSAlertLibrary/Core/Managers/AlertPresentationManager.swift) - Manages the display of containers (Views implementing ContainerViewProtocol) and their lifecycle.
 
 ## Requirements
 

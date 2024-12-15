@@ -1,8 +1,8 @@
-## User settings
-xcuserdata/
-
 .DS_Store
-/iOS/AlertsLibrary/.build
-/iOS/AlertsLibrary/.swiftpm
-/iOS/AlertsLibrary/Packages
-/iOS/AlertsLibrary/Package.resolved
+/.build
+/Packages
+xcuserdata/
+DerivedData/
+.swiftpm/configuration/registries.json
+.swiftpm/xcode/package.xcworkspace/contents.xcworkspacedata
+.netrc

@@ -1,4 +1,4 @@
-**[README_en.md](https://github.com/MickeyRU/AlertsLibrary/tree/main/README_en.md)**
+**[README_en.md](README_en.md)**
 # iOSAlertLibrary
 
 **iOSAlertLibrary** — это библиотека для отображения уведомлений на базе SwiftUI, которая может работать на любом экране.
@@ -114,9 +114,9 @@ iosAlertlibrary.dismissAlert(id: id)
 
 Архитектура библиотеки разделена на модули, что позволяет использовать только необходимую часть функционала.
 
-- [Alerts UI presets](https://github.com/MickeyRU/AlertsLibrary/tree/main/SPM/Sources/iOSAlertLibrary/NotificationsUI) - Набор готовых шаблонов уведомлений.
-- [BasicContainerView](https://github.com/MickeyRU/AlertsLibrary/blob/main/SPM/Sources/iOSAlertLibrary/Core/Containers/BasicContainerView.swift) - Промежуточная обертка над UI-элементом (View), позволяющая настраивать жесты и анимации, реализующая протокол ContainerViewProtocol.
-- [AlertPresentationManager](https://github.com/MickeyRU/AlertsLibrary/blob/main/SPM/Sources/iOSAlertLibrary/Core/Managers/AlertPresentationManager.swift) - Менеджер, отвечающий за показ контейнеров (View, реализующих протокол ContainerViewProtocol) на экране и управление их жизненным циклом.
+- [Alerts UI presets](Sources/iOSAlertLibrary/NotificationsUI) - Набор готовых шаблонов уведомлений.
+- [BasicContainerView](Sources/iOSAlertLibrary/Core/Containers/BasicContainerView.swift) - Промежуточная обертка над UI-элементом (View), позволяющая настраивать жесты и анимации, реализующая протокол ContainerViewProtocol.
+- [AlertPresentationManager](Sources/iOSAlertLibrary/Core/Managers/AlertPresentationManager.swift) - Менеджер, отвечающий за показ контейнеров (View, реализующих протокол ContainerViewProtocol) на экране и управление их жизненным циклом.
 
 ## Требования
 

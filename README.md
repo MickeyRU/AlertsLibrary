@@ -1,13 +1,30 @@
+**[README_en.md](README_en.md)**
 # iOSAlertLibrary
 
 **iOSAlertLibrary** — это библиотека для отображения уведомлений на базе SwiftUI, которая может работать на любом экране.
 
-<p float="left">
-  <img src="https://github.com/user-attachments/assets/eabd0544-6911-4187-b883-15d3f13ab7f0" width="23%" />
-  <img src="https://github.com/user-attachments/assets/d2253dae-29a8-4cb6-86aa-7f12265a1ce1" width="23%" />
-  <img src="https://github.com/user-attachments/assets/1f0ba5b3-eec2-48f9-93ac-bd68bb44582d" width="23%" />
-  <img src="https://github.com/user-attachments/assets/73bfc58c-44ee-4550-9e84-74440dbbb3b7" width="23%" /> 
-</p>
+<table>
+    <thead>
+        <tr>
+            <th>Тосты</th>
+            <th>Динамический остров</th>
+            <th>Алерты</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>
+                <img src="https://github.com/user-attachments/assets/568f0232-33e3-4113-8c74-490a644aaba6" height="400" alt="Toasts"/>
+            </td>
+            <td>
+                <img src="https://github.com/user-attachments/assets/9e341c68-56d9-4d5a-9a5b-895755a30e86" height="400" alt="DynamicIsland"/>
+            </td>
+            <td>
+                <img src="https://github.com/user-attachments/assets/e047ec71-fb6d-4157-b283-79f1a6de2cb3" height="400" alt="Alerts"/>
+            </td>
+        </tr>
+    </tbody>
+</table>
 
 ---
 
@@ -97,14 +114,14 @@ iosAlertlibrary.dismissAlert(id: id)
 
 Архитектура библиотеки разделена на модули, что позволяет использовать только необходимую часть функционала.
 
-- [Alerts UI presets](https://github.com/Yandex-360-Mobile-Bootcamp/AlertsLibrary/tree/spm/iOS/SPM/Sources/iOSAlertLibrary/NotificationsUI) - Набор готовых шаблонов уведомлений.
-- [BasicContainerView](https://github.com/Yandex-360-Mobile-Bootcamp/AlertsLibrary/blob/spm/iOS/SPM/Sources/iOSAlertLibrary/Core/Containers/BasicContainerView.swift) - Промежуточная обертка над UI-элементом (View), позволяющая настраивать жесты и анимации, реализующая протокол ContainerViewProtocol.
-- [AlertPresentationManager](https://github.com/Yandex-360-Mobile-Bootcamp/AlertsLibrary/blob/spm/iOS/SPM/Sources/iOSAlertLibrary/Core/Managers/AlertPresentationManager.swift) - Менеджер, отвечающий за показ контейнеров (View, реализующих протокол ContainerViewProtocol) на экране и управление их жизненным циклом.
+- [Alerts UI presets](Sources/iOSAlertLibrary/NotificationsUI) - Набор готовых шаблонов уведомлений.
+- [BasicContainerView](Sources/iOSAlertLibrary/Core/Containers/BasicContainerView.swift) - Промежуточная обертка над UI-элементом (View), позволяющая настраивать жесты и анимации, реализующая протокол ContainerViewProtocol.
+- [AlertPresentationManager](Sources/iOSAlertLibrary/Core/Managers/AlertPresentationManager.swift) - Менеджер, отвечающий за показ контейнеров (View, реализующих протокол ContainerViewProtocol) на экране и управление их жизненным циклом.
 
 ## Требования
 
-| Платформы                                             | 
-| ---------------------------------------------------- | 
+| Платформы | 
+|-----------| 
 | iOS 16.0+ | 
 
 ## Авторы

@@ -2,24 +2,36 @@
 
 **iOSAlertLibrary** is a SwiftUI-based notification library that works seamlessly on any screen.
 
-<table>
+<table style="width: 100%; table-layout: fixed; border-spacing: 10px; text-align: center;">
     <thead>
         <tr>
             <th>Toasts</th>
-            <th>Dynamic Island</th>
+            <th>Dynamic island</th>
             <th>Alerts</th>
         </tr>
     </thead>
     <tbody>
         <tr>
-            <td>
-                <img src="https://github.com/user-attachments/assets/568f0232-33e3-4113-8c74-490a644aaba6" height="400" alt="Toasts"/>
+            <td style="vertical-align: middle;">
+                <img 
+                    src="https://github.com/user-attachments/assets/568f0232-33e3-4113-8c74-490a644aaba6" 
+                    style="height: 400px; width: auto; object-fit: contain;" 
+                    alt="Toasts"
+                />
             </td>
-            <td>
-                <img src="https://github.com/user-attachments/assets/9e341c68-56d9-4d5a-9a5b-895755a30e86" height="400" alt="DynamicIsland"/>
+            <td style="vertical-align: middle;">
+                <img 
+                    src="https://github.com/user-attachments/assets/9e341c68-56d9-4d5a-9a5b-895755a30e86" 
+                    style="height: 400px; width: auto; object-fit: contain;" 
+                    alt="DynamicIsland"
+                />
             </td>
-            <td>
-                <img src="https://github.com/user-attachments/assets/e047ec71-fb6d-4157-b283-79f1a6de2cb3" height="400" alt="Alerts"/>
+            <td style="vertical-align: middle;">
+                <img 
+                    src="https://github.com/user-attachments/assets/e047ec71-fb6d-4157-b283-79f1a6de2cb3" 
+                    style="height: 400px; width: auto; object-fit: contain;" 
+                    alt="Alerts"
+                />
             </td>
         </tr>
     </tbody>

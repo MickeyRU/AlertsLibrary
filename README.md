@@ -16,21 +16,18 @@
             <td style="vertical-align: middle;">
                 <img 
                     src="https://github.com/user-attachments/assets/568f0232-33e3-4113-8c74-490a644aaba6" 
-                    style="height: 400px; width: auto; object-fit: contain;" 
                     alt="Toasts"
                 />
             </td>
             <td style="vertical-align: middle;">
                 <img 
                     src="https://github.com/user-attachments/assets/9e341c68-56d9-4d5a-9a5b-895755a30e86" 
-                    style="height: 400px; width: auto; object-fit: contain;" 
                     alt="DynamicIsland"
                 />
             </td>
             <td style="vertical-align: middle;">
                 <img 
                     src="https://github.com/user-attachments/assets/e047ec71-fb6d-4157-b283-79f1a6de2cb3" 
-                    style="height: 400px; width: auto; object-fit: contain;" 
                     alt="Alerts"
                 />
             </td>

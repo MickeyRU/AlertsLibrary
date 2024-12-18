@@ -12,16 +12,15 @@
 		980EA1542CE219DC0070C125 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 980EA1532CE219DC0070C125 /* Assets.xcassets */; };
 		980EA1572CE219DC0070C125 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 980EA1562CE219DC0070C125 /* Preview Assets.xcassets */; };
 		A7AB48DC2CF8BFCA008CF5EE /* SnapshotTesting in Frameworks */ = {isa = PBXBuildFile; productRef = A7AB48DB2CF8BFCA008CF5EE /* SnapshotTesting */; };
-		A83A52FF2CF7325900A199C6 /* iOSAlertLibrary in Frameworks */ = {isa = PBXBuildFile; productRef = A83A52FE2CF7325900A199C6 /* iOSAlertLibrary */; };
 		BE7FC95A2CF7774300A9241A /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE7FC9592CF7773F00A9241A /* SwiftUIView.swift */; };
 		BE7FC95C2CF7780100A9241A /* UIKitWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE7FC95B2CF777F500A9241A /* UIKitWrapper.swift */; };
 		BE7FC9692CF778AD00A9241A /* SecondEmptyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE7FC9682CF7789F00A9241A /* SecondEmptyView.swift */; };
 		BE7FC96C2CF77E4500A9241A /* SwiftUIViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE7FC96B2CF77E4400A9241A /* SwiftUIViewModel.swift */; };
-		BE7FC9722CF78A6800A9241A /* iOSAlertLibrary in Frameworks */ = {isa = PBXBuildFile; productRef = BE7FC9712CF78A6800A9241A /* iOSAlertLibrary */; };
 		BE7FC9872CF790D300A9241A /* UIKitViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE7FC9862CF790D300A9241A /* UIKitViewModel.swift */; };
 		BE7FC9892CF7911500A9241A /* UIKitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE7FC9882CF7911200A9241A /* UIKitViewController.swift */; };
 		BE7FC98C2CF8525800A9241A /* AlertDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE7FC98B2CF8524F00A9241A /* AlertDataManager.swift */; };
 		BE7FC98E2CF88B9800A9241A /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE7FC98D2CF88B8C00A9241A /* Models.swift */; };
+		BE9B78F22D12B3EC00A9F653 /* iOSAlertLibrary in Frameworks */ = {isa = PBXBuildFile; productRef = BE9B78F12D12B3EC00A9F653 /* iOSAlertLibrary */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,8 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A83A52FF2CF7325900A199C6 /* iOSAlertLibrary in Frameworks */,
-				BE7FC9722CF78A6800A9241A /* iOSAlertLibrary in Frameworks */,
+				BE9B78F22D12B3EC00A9F653 /* iOSAlertLibrary in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +79,7 @@
 			children = (
 				980EA14E2CE219DB0070C125 /* DemoApp */,
 				A7AB48D02CF8BFAA008CF5EE /* DemoAppUITests */,
+				BE9B78F02D12B3EC00A9F653 /* Frameworks */,
 				980EA14D2CE219DB0070C125 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -161,6 +160,13 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
+		BE9B78F02D12B3EC00A9F653 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -234,8 +240,8 @@
 			);
 			mainGroup = 980EA1432CE219DB0070C125;
 			packageReferences = (
-				BE7FC9702CF78A6800A9241A /* XCLocalSwiftPackageReference "../SPM" */,
 				A7AB48DA2CF8BFCA008CF5EE /* XCRemoteSwiftPackageReference "swift-snapshot-testing" */,
+				BE9B78EF2D12B3B800A9F653 /* XCRemoteSwiftPackageReference "AlertsLibrary" */,
 			);
 			productRefGroup = 980EA14D2CE219DB0070C125 /* Products */;
 			projectDirPath = "";
@@ -557,13 +563,6 @@
 		};
 /* End XCConfigurationList section */
 
-/* Begin XCLocalSwiftPackageReference section */
-		BE7FC9702CF78A6800A9241A /* XCLocalSwiftPackageReference "../SPM" */ = {
-			isa = XCLocalSwiftPackageReference;
-			relativePath = ../SPM;
-		};
-/* End XCLocalSwiftPackageReference section */
-
 /* Begin XCRemoteSwiftPackageReference section */
 		A7AB48DA2CF8BFCA008CF5EE /* XCRemoteSwiftPackageReference "swift-snapshot-testing" */ = {
 			isa = XCRemoteSwiftPackageReference;
@@ -571,6 +570,14 @@
 			requirement = {
 				kind = exactVersion;
 				version = 1.16.2;
+			};
+		};
+		BE9B78EF2D12B3B800A9F653 /* XCRemoteSwiftPackageReference "AlertsLibrary" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/MickeyRU/AlertsLibrary";
+			requirement = {
+				branch = main;
+				kind = branch;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
@@ -581,12 +588,9 @@
 			package = A7AB48DA2CF8BFCA008CF5EE /* XCRemoteSwiftPackageReference "swift-snapshot-testing" */;
 			productName = SnapshotTesting;
 		};
-		A83A52FE2CF7325900A199C6 /* iOSAlertLibrary */ = {
+		BE9B78F12D12B3EC00A9F653 /* iOSAlertLibrary */ = {
 			isa = XCSwiftPackageProductDependency;
-			productName = iOSAlertLibrary;
-		};
-		BE7FC9712CF78A6800A9241A /* iOSAlertLibrary */ = {
-			isa = XCSwiftPackageProductDependency;
+			package = BE9B78EF2D12B3B800A9F653 /* XCRemoteSwiftPackageReference "AlertsLibrary" */;
 			productName = iOSAlertLibrary;
 		};
 /* End XCSwiftPackageProductDependency section */

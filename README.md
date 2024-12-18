@@ -3,7 +3,7 @@
 
 **iOSAlertLibrary** — это библиотека для отображения уведомлений на базе SwiftUI, которая может работать на любом экране.
 
-<table style="width: 100%; table-layout: fixed; border-spacing: 10px; text-align: center;">
+<table>
     <thead>
         <tr>
             <th>Тосты</th>
@@ -13,23 +13,14 @@
     </thead>
     <tbody>
         <tr>
-            <td style="vertical-align: middle;">
-                <img 
-                    src="https://github.com/user-attachments/assets/568f0232-33e3-4113-8c74-490a644aaba6" 
-                    alt="Toasts"
-                />
+            <td>
+                <img src="https://github.com/user-attachments/assets/568f0232-33e3-4113-8c74-490a644aaba6" style="max-width: 100%; height: auto;" />
             </td>
-            <td style="vertical-align: middle;">
-                <img 
-                    src="https://github.com/user-attachments/assets/9e341c68-56d9-4d5a-9a5b-895755a30e86" 
-                    alt="DynamicIsland"
-                />
+            <td>
+                <img src="https://github.com/user-attachments/assets/9e341c68-56d9-4d5a-9a5b-895755a30e86" style="max-width: 100%; height: auto;" />
             </td>
-            <td style="vertical-align: middle;">
-                <img 
-                    src="https://github.com/user-attachments/assets/e047ec71-fb6d-4157-b283-79f1a6de2cb3" 
-                    alt="Alerts"
-                />
+            <td>
+                <img src="https://github.com/user-attachments/assets/e047ec71-fb6d-4157-b283-79f1a6de2cb3" style="max-width: 100%; height: auto;" />
             </td>
         </tr>
     </tbody>

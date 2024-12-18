@@ -1,6 +1,15 @@
 {
-  "originHash" : "14ecb8dd3528bbcd218f1f98d772a5bc1074d1489472bf9e34f4991d801340a8",
+  "originHash" : "006f2974d13cffffda55483b618f33d00ec6e2aafd7708ed35fd88dd2bf0d9e6",
   "pins" : [
+    {
+      "identity" : "alertslibrary",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/MickeyRU/AlertsLibrary",
+      "state" : {
+        "branch" : "main",
+        "revision" : "ccd3fe38e439c09e807ec40b7fe41235f1324817"
+      }
+    },
     {
       "identity" : "swift-snapshot-testing",
       "kind" : "remoteSourceControl",

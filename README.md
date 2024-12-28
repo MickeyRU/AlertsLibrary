@@ -83,6 +83,7 @@ let alertConfig = AlertConfig(
     )
 )
 
+
 // Создание уведомления (вью)
 let alert = AlertView(config: alertConfig)
 
